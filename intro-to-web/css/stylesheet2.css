@@ -2,16 +2,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(88, 190, 156);
     font-style:inherit ;
+    padding: 3%;
     width: 150px;
     height: 160px;
-    
+    margin-top: 0%;
 }
 
 .heading {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     background-color: rgb(138, 169, 226);
-   
+    padding-bottom: 5% ;
+    padding-top: 3%;
+
 }
 
 a { 
@@ -21,16 +24,29 @@ a {
 
 img { 
     text-align: center;
+    border-radius:50%;
+    border-color: black;
+    border-style : solid;
+    border-width: 6px;
     
 }
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(238, 244, 242) ;
-     
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 footer{ 
     background-color: lightblue;
-
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    
+}
+article {
+    margin-left: 7%;
+    margin-right: 7%;
 }
