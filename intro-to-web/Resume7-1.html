@@ -4,28 +4,31 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/stylesheet2.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet3.css">
         <title>Herman Botshelo Ngwenya </title>
     </head>
        
-        <br>
     <body>
-    <header class="heading">
-        <img src="images/images.jpg" alt="A Headshot of Herman Botshelo Ngwenya" width="320" height="320">
+    <header>
+        <div class="heading">
+        <div><img src="images/images.jpg" alt="A Headshot of Herman Botshelo Ngwenya" width="320" height="320"></div>
         <h1 style="color : #bfaba4;">Herman Botshelo Ngwenya</h1>
         <p style="color: #bfaba4;">An introductory personal statement. </p>
-        
+        </div>
     </header>
-       <section>
+    <section>
     <aside>
-    <ul class="menu">
+        <div class="menu">
         <h2>Menu</h2>
+        <nav>
+    <ul>
         <li><a href="#education">Education</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
     </ul>
+        </nav>
+    </div>
     </aside>
-    <br>
 <article>
    <h2 id="education">Education</h2>
         <h3> Intro to web at <a target="_blank" href="https://codespace.co.za">Codespace Academy</a></h3>
@@ -63,12 +66,35 @@
     </article>
     </section>
         
+    <div>
     <footer>
             <h2>Contact Details</h2>
         <p><a target="_blank" href="www.linkedin.com/in/herman-ngwenya-aba382267"> LinkedIn</a></p>
-    </footer>
-
-        
+        <br>
+        <form action="https://formsubmit.co/hermanbngwenya@gmail.com" target="_blank" method="post">
+            <label for="contactme">Contact Me</label>
+            <select name="emailsubject" placeholder="*Required">
+                <option value="" placeholder="Required">*Required---</option>
+                <option value="enquiry">Enquiry</option>
+                <option value="jobopportunity">Job Opportunity</option>
+                <option value="businessproposal">Business Proposal</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="websitefeedback">Website Feedback</option>
+            </select>
+            <input type="submit" value="Confirm">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="*Required">
+            <br>
+            <label for="phonenumber">Phone No.:</label>
+            <input type="phonenumber" id="phonenumber" name="Phone Number" placeholder="*Required">
+            <br>
+            <label for="commenttext">Comment:</label>
+            <textarea name="commenttext" id="comment" rows="8" cols="20" placeholder="Opional"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+ 
+    </div>     
     </body>
 </html>
-
