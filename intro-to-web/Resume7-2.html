@@ -11,7 +11,11 @@
     <body>
     <header>
         <div class="heading">
-        <img src="images/images.jpg" alt="A Headshot of Herman Botshelo Ngwenya" width="320" height="320">
+        <picture>
+            <source srcset="./images/images.jpg" media="(max-width:1000px)">
+            <source srcset="./images/images2.jpg" media="(max-width:400px)">
+            <img src="images/images.jpg" alt="Herman" width="320" height="320">
+        </picture>
         <h1>Herman Botshelo Ngwenya</h1>
         <p>An introductory personal statement. </p>
         </div>
