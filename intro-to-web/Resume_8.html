@@ -4,21 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/stylesheet3.css">
+        <link rel="stylesheet" type="text/css" href="css/resume8.css">
         <title>Herman Botshelo Ngwenya </title>
     </head>
        
     <body>
     <header>
         <div class="heading">
-        <div><img src="images/images.jpg" alt="A Headshot of Herman Botshelo Ngwenya" width="320" height="320"></div>
-        <h1 style="color : #bfaba4;">Herman Botshelo Ngwenya</h1>
-        <p style="color: #bfaba4;">An introductory personal statement. </p>
+        <picture>
+            <source srcset="./images/images.jpg" media="(min-width:1000px)">
+            <source srcset="./images/images2.jpg" media="(min-width:400px)">
+            <img src="images/images.jpg" alt="Herman" width="320" height="320" style="max-width: 100%;height: auto;">
+        </picture>
+        <h1 style="color: thistle;">Herman Botshelo Ngwenya</h1>
+        <p>An introductory personal statement. </p>
         </div>
     </header>
-    <section>
-    <aside>
-        <div class="menu">
+
+<div>
+    <section class="content">
+    
+    <div class="menu">
         <h2>Menu</h2>
         <nav>
     <ul>
@@ -28,14 +34,15 @@
     </ul>
         </nav>
     </div>
-    </aside>
+    
 <article>
    <h2 id="education">Education</h2>
         <h3> Intro to web at <a target="_blank" href="https://codespace.co.za">Codespace Academy</a></h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati veniam accusantium, alias laborum sunt enim error temporibus ducimus sequi, voluptatum at tempore distinctio illum. Eligendi quam quasi vero. Velit.</p>
-
+        <br>
         <h3> Qualification 2</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat, laborum odio saepe vitae earum at quam, veritatis quasi incidunt asperiores ipsam quo dignissimos, esse tempore praesentium quia. Quasi, suscipit.</p>
+        <br>
 
         <h2 id="experience">Experience</h2>
           <h3>Job 1</h3>
@@ -46,7 +53,7 @@
             <li>Magni maxime est eaque nam aliquid temporibus.</li>
             <li>Exercitationem ipsam possimus itaque.</li>
           </ul> 
-
+          <br>
         <h3>Job 2</h3>
         <ul>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -55,6 +62,7 @@
             <li>Aliquam neque amet earum.</li>
             <li>Eveniet maxime laborum enim eligendi ipsa provident perspiciatis.</li>
         </ul>
+        <br>
 
         <h2 id="skills">Skills</h2>
             <ul>
@@ -65,15 +73,46 @@
             </ul>
     </article>
     </section>
-        
-    <div>
-    <footer>
-            <h2>Contact Details</h2>
-            <a target="_blank" href="www.linkedin.com/in/herman-ngwenya-aba382267"> LinkedIn</a>
-    </footer>
     </div>
+    <br>
 
-        
+    <div>
+        <footer>
+            <h2>Contact Details</h2>
+        <a target="_blank" href="www.linkedin.com/in/herman-ngwenya-aba382267"> LinkedIn</a>
+        <br>
+        <div class="form-1">
+        <form action="https://formsubmit.co/hermanbngwenya@gmail.com" target="_blank" method="post">
+            <h3>Contact Me</h3>
+            <div>
+            <select name="emailsubject">
+                <option value="emailsubjects" required >Select Option---</option>
+                <option value="enquiry">Enquiry</option>
+                <option value="jobopportunity">Job Opportunity</option>
+                <option value="businessproposal">Business Proposal</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="websitefeedback">Website Feedback</option>
+            </select>
+            </div>
+
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            </div>
+
+            <div>
+            <label for="number">Phone No.:</label>
+            <input type="number" id="number" name="Number" required>
+            </div>
+
+            <div>
+            <textarea name="comment" id="comment" rows="10" cols="32" optional placeholder="Optional,Comment Here..."></textarea>
+            </div>
+            
+            <input type="submit">
+        </form>
+        </div>
+ 
+    </div>     
     </body>
 </html>
-
