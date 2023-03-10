@@ -164,7 +164,7 @@ form {
     body { background-color: #736a69;
         font-size: 20px;
     }
-    h2 {font-size: large;
+    h2 {font-size: larger;
     }
     .menu { 
         background-color: #dac4bd;
@@ -186,7 +186,7 @@ form {
         font-size: 22px;
     }
     h2 { 
-        font-size: larger;
+        font-size: xx-large;
     }
     .menu { background-color:#736a69;}
     
